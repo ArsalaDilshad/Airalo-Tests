@@ -2,17 +2,15 @@
 class HomePage {
 
   /**
-   * Initializes a new instance of the Airalo Home Page class with required locators for gist creation.
+   * Initializes a new instance of the Airalo Home Page class 
    * 
-   * The constructor sets up the Playwright page object and locators needed to interact 
-   * with elements on the Airalo home page.
+   * The constructor sets up the Playwright page object
    * 
    * @param {Page} page - The Playwright page object for interacting with the web page.
    
    */
-  constructor(page, isHeadless) {
+  constructor(page) {
     this.page = page;
-    this.isHeadless = isHeadless;  // Store the headless flag
   }
 
   /**
