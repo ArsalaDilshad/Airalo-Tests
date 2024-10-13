@@ -27,7 +27,7 @@ This project is a Playwright-based testing suite designed to evaluate and verify
  macOS: https://nodejs.org/en/download/package-manager
 
 # Navigate to the project directory
-cd Airalo Assignment
+cd Airalo-Tests
 
 # Install dependencies
 npm install
@@ -53,7 +53,7 @@ In this project, JavaScript serves several key roles:
   - **Asynchronous Operations**: JavaScript's support for promises and async/await syntax allows for handling asynchronous operations in a clean and manageable way. This is crucial for interacting with web elements that might load or change dynamically.
   
   ## Design Pattern
-  For organizing and maintaining code, making it more readable, reusable, and easier to manag the Page Object Model (POM) a design pattern is used in this project.This design creates a layer of abstraction between the test scripts and the application’s user interface. For further details, please refer to the [Playwirght Documentation for POM](https://playwright.dev/docs/pom)
+  For organizing and maintaining code, making it more readable, reusable, and easier to manage the Page Object Model (POM) a design pattern is used in this project.This design creates a layer of abstraction between the test scripts and the application’s user interface. For further details, please refer to the [Playwirght Documentation for POM](https://playwright.dev/docs/pom)
   Here in this screenshot, you can see that home page objects and functions class is created in pages folder and the relevant test of this class are added in the test folder.
   
   ![alt text](images/image.png)
