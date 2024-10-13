@@ -69,7 +69,7 @@ Used for project files
  ## Test Execution
 ```bash
 # Navigate to the project directory
-cd Airalo Assignment
+cd Airalo-Tests
 
 # Add client id and secret values to constant.js file
 ```
