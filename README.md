@@ -35,7 +35,7 @@ npm install
 ## Configuration
 The Playwright configuration file (playwright.config.js) is located in the root directory. Customize it according to your needs. For example, you can configure test execution mode, browsers, set base URL.
 
-![alt text](images/image1.png)
+![alt text](images/image1.PNG)
 
 ## Tech Stack
 This project uses the following technologies and tools:
@@ -73,7 +73,7 @@ cd Airalo Assignment
 
 # Add client id and secret values to constant.js file
 ```
-  ![alt text](images/image2.png)
+  ![alt text](images/image2.PNG)
 
 ```bash
 # to execute the Web test in headless mode
@@ -91,4 +91,4 @@ npx playwright test
 # to view the result report
  npx playwright show-report
 ```
- ![alt text](images/image4.png)
+ ![alt text](images/image4.PNG)
