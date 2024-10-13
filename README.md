@@ -73,7 +73,7 @@ cd Airalo Assignment
 
 # Add client id and secret values to constant.js file
 ```
-![alt text](images/image2.png)
+  ![alt text](images/image2.png)
 
 ```bash
 # to execute the Web test in headless mode
@@ -91,4 +91,4 @@ npx playwright test
 # to view the result report
  npx playwright show-report
 ```
-![alt text](images/images4.png)
+ ![alt text](images/image4.png)
