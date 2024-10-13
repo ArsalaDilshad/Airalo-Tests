@@ -6,19 +6,16 @@ test.describe('Tests for GET- eSIMS list API', () => {
     let token;
 
     /**
-     * Setup function that runs before all tests in the suite.
-     * 
-     * This asynchronous function creates a new context for API requests using Playwright's 
-     * request functionality. The new context can be used for making HTTP requests 
-     * independently of the browser context, allowing for isolated API testing.
-     * 
-     * 
-     * @async
-     * @function
-     * @param {Object} context - The context object provided by Playwright, containing various utilities.
-     * @param {Playwright} context.playwright - The Playwright object used to create a new request context.
-     * @returns {Promise<void>} Resolves once the new request context has been created.
-     */
+ * This `beforeAll` hook is used to set up an authentication token for API requests before any tests are executed.
+ *
+ * - It initializes a new request context using Playwright, allowing for secure and isolated HTTP requests.
+ * - A POST request is sent to the authentication endpoint with the required credentials (`client_id` and `client_secret`).
+ * - Upon successful authentication (response code 200), it retrieves the access token from the response body.
+ * - The retrieved token is stored in a global variable for use in subsequent API calls during the test suite.
+ * 
+ * @throws {Error} If the authentication request fails or returns a non-200 response, indicating an issue with the credentials or server.
+ */
+
     test.beforeAll(async ({ playwright }) => {
         request = await playwright.request.newContext({
         });
