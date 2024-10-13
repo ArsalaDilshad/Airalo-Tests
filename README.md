@@ -91,4 +91,4 @@ npx playwright test
 # to view the result report
  npx playwright show-report
 ```
-![alt text](images/image4.png)
+![alt text](images/images4.png)
